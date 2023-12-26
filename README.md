@@ -15,7 +15,7 @@ The usage would require basic knowledge of running Python3 in a terminal (long/s
 ```
 $ python3 ncmdump.py --help
 
-
+//python12 is ok, too
   usage: ncmdump.py [-h] [-w] paths [paths ...]
 
   pyNCMDUMP command-line interface
