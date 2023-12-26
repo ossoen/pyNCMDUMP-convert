@@ -2,15 +2,15 @@
 
 This is a simple commandline tool that helps you convert an encrypted `.ncm` file into its original, more commonly seen audio types (e.g. `flac` and `mp3`). 
 
-## Dependencies
+## Dependencies[update20231226]
 
 - Python3
 - [TQDM](https://github.com/tqdm/tqdm) package, which can be installed through `pip3 install tqdm`
-- [PyCrypto](https://www.pycrypto.org) package, which can be installed through `pip3 install pycrypto`
+- [PyCrypto](https://www.pycrypto.org) package, which can be installed through `pip3 install pycryptodome` 
 
 ## Usage
 
-The usage would require basic knowledge of running Python3 in a terminal (long/short arguments are inter-changable in examples below):
+The usage would require basic knowledge of running Python3 in a terminal (long/short arguments are inter-changable in examples below): 
 
 ```
 $ python3 ncmdump.py --help
@@ -74,7 +74,7 @@ $ python ncmdump.py A b.ncm --workers 4
   INFO [2022-10-03 21:14:04] 
   INFO [2022-10-03 21:14:04] Running pyNCMDUMP with up to 4 parallel workers
   INFO [2022-10-03 21:14:04] Converting "A/a1.ncm"
-  INFO [2022-10-03 21:14:04] Converting "A/a2.ncm"
+  INFO [2022-10-03 21:14:04] Converting "A/a2.ncm" 
   INFO [2022-10-03 21:14:04] Converting "A/a4.ncm"
   INFO [2022-10-03 21:14:04] Converting "A/a3.ncm"
   INFO [2022-10-03 21:14:07] Converted file saved at "a1.mp3"
